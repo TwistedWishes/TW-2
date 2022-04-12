@@ -25,6 +25,7 @@ export const PlasmicHomepage4__ArgProps = new Array();
 
 function PlasmicHomepage4__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   return (
     <React.Fragment>
       <style>{`

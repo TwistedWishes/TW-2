@@ -44,6 +44,7 @@ export const PlasmicTextInput__ArgProps = new Array(
 
 function PlasmicTextInput__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const [isRootFocusVisibleWithin, triggerRootFocusVisibleWithinProps] =
     useTrigger("useFocusVisibleWithin", {
       isTextInput: true
