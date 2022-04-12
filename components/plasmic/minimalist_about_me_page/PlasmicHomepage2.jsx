@@ -9,6 +9,7 @@
 // Plasmic Project: 68FsTXs8g8hH9RGmk7R9kt
 // Component: 8nPGFfvsmr
 import * as React from "react";
+import Head from "next/head";
 import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
@@ -30,6 +31,12 @@ function PlasmicHomepage2__RenderFunc(props) {
   const $props = props.args;
   return (
     <React.Fragment>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+        <title key="title">{"XCP_BET_SCREEN_"}</title>
+        <meta key="og:title" property="og:title" content={"XCP_BET_SCREEN_"} />
+      </Head>
+
       <style>{`
         body {
           margin: 0;
@@ -568,7 +575,7 @@ function PlasmicHomepage2__RenderFunc(props) {
             data-plasmic-override={overrides.embedHtml}
             className={classNames("__wab_instance", sty.embedHtml)}
             code={
-              "<form action=”mailto:finnickmaster@gmail.com”\r\n\r\n\r\nmethod=”POST”\r\n\r\n\r\nenctype=”multipart/form-data”\r\n\r\n\r\nname=”FORM”>\r\n\r\n\r\nPLEASE-INPUT-ADDRESS:<br>\r\n\r\n\r\n<input type=”text” size=”19″ name=”ContactEmail”><br><br>\r\n\r\n\r\nPLEASE-INPUT-BET-PNUMBER:<br> <textarea name=”ContactBet-PNumber” rows=”6″ cols=”20″>\r\n\r\n\r\n</textarea><br><br> <input type=”submit” value=”Submit”> </form>\r\n\r\n"
+              '<form \r\n  method="POST" \r\n  action="https://script.google.com/macros/s/AKfycbwV2NLv6ac6Yee9tE9YzZwIvHVlM8vuT5XUIQzsedUBDc_GzWR22dlvsVo1aSKPh5_VYA/exec"\r\n>\r\n  <input name="Email" type="email" placeholder="INPUT-EMAIL" required>\r\n  <input name="Name" type="text" placeholder="INPUT-BET-PNUMBER-AS-SEEN-ABOVE" required>\r\n  <button type="submit">SUBMIT</button>\r\n</form>'
             }
           />
 
